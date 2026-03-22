@@ -1,8 +1,7 @@
 :root {
     --primary-color: #2c2c2c;
     --secondary-color: #1B6DB6;
-    --accent1-color: #E6941F;
-    --accent2-color: #34a8e1;
+    --accent-color: #E6941F;
     --heading-font: "Helvetica";
     --body-font: "Arial";
 }
@@ -29,13 +28,12 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
-
 }
 
 h2 {
     padding: 10px;
     border-bottom: solid var(--primary-color);
+    color: var(--accent-color);
 }
 
 nav,
@@ -71,7 +69,7 @@ footer {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -81,10 +79,9 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: var(--secondary-color);
-    opacity: 0.8;
     bottom: 50px;
     margin: 50px;
 }
