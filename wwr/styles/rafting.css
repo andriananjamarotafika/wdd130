@@ -21,8 +21,32 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 75%;
     margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    border-bottom: var(--primary-color) solid;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 h1,
@@ -31,9 +55,8 @@ h2 {
 }
 
 h2 {
-    padding: 10px;
-    border-bottom: solid var(--primary-color);
     color: var(--accent-color);
+    text-align: center;
 }
 
 nav,
@@ -44,18 +67,36 @@ article {
     padding: 8px;
 }
 
-footer {
-    text-align: center;
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 10% 90%;
+    padding: 2rem;
+    border: var(--primary-color) solid;
+
 }
 
-.socialmedia a {
+.history h2 {
+    grid-column: 1 / 4;
+
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.socialmedia {
     text-decoration: none;
 }
 
 .socialmedia img {
     width: 30px;
     height: auto;
-    opacity: 0.9;
+    background: white;
+    margin: 4px;
+
 }
 
 .hero {
@@ -67,6 +108,7 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .hero h1 {
@@ -91,4 +133,49 @@ footer {
     width: 125px;
     margin: 10px;
     border: solid rgb(70, 70, 70);
+}
+
+figure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: 5px;
+    max-width: 220px;
+
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.figure_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
+footer p {
+    grid-column: 2 / 4;
+
 }
