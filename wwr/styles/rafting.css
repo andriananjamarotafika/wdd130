@@ -55,7 +55,7 @@ h2 {
 }
 
 h2 {
-    color: var(--accent-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -87,21 +87,21 @@ article {
     padding: 1rem;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 
 .socialmedia img {
     width: 30px;
     height: auto;
-    background: white;
+    background: #fff;
     margin: 4px;
 
 }
 
 .hero {
     position: relative;
-    color: white;
+    color: #000;
 }
 
 .hero img {
@@ -132,11 +132,11 @@ article {
     float: right;
     width: 125px;
     margin: 10px;
-    border: solid rgb(70, 70, 70);
+    border: solid var(--primary-color);
 }
 
 figure {
-    border: thin silver solid;
+    border: thin var(--primary-color) solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -152,7 +152,7 @@ figure img {
 
 figcaption {
     background-color: #222222;
-    color: white;
+    color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
@@ -169,7 +169,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: var(--secondary-color);
-    color: white;
+    color: #fff;
     text-align: center;
     align-items: center;
 
