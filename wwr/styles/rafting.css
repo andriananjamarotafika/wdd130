@@ -4,13 +4,14 @@
     --accent-color: #E6941F;
     --accent-color-light: #FFF;
     --heading-font: "Helvetica";
-    --body-font: "Arial";
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--body-font);
 }
 
 body {
@@ -445,4 +446,61 @@ label[for="message"] {
     font-weight: bold;
     font-size: larger;
     margin: 1rem 0;
+}
+
+
+.trip-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border: var(--primary-color);
+}
+
+h2 {
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.trip-table {
+    width: 100%;
+    background: var(--accent-color-light);
+}
+
+.trip-table thead {
+    background-color: var(--accent-color);
+    color: var(--accent-color-light);
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--accent-color-light);
+}
+
+span {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.trip-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.trip-gallery figcaption {
+    background-color: var(--secondary-color);
+    color: var(--accent-color-light);
+    font-style: normal;
+    padding: 50px 10px;
+    text-align: center;
 }
