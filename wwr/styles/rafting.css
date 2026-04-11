@@ -71,6 +71,12 @@ h2 {
     text-align: center;
 }
 
+.top-contact p {
+    color: var(--primary-color);
+    font-size: larger;
+    font-weight: bold;
+}
+
 nav,
 p,
 section,
