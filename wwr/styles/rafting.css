@@ -68,7 +68,7 @@ h1 {
 }
 
 .top-contact h1 {
-    color: var(--accent-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
