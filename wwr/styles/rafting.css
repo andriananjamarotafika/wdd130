@@ -16,7 +16,6 @@
 }
 
 body {
-    font-family: var(--body-font);
     color: var(--primary-color);
 }
 
@@ -34,10 +33,12 @@ span {
 /* --- TYPOGRAPHY --- */
 h1,
 h2 {
-    font-family: var(--heading-font);
-    color: var(--accent-color-light);
     text-align: center;
     margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--accent-color-light);
 }
 
 
@@ -85,7 +86,6 @@ header img {
 /* --- HERO SECTIONS --- */
 .hero {
     position: relative;
-    color: var(--primary-color);
 }
 
 .hero img {
@@ -462,9 +462,7 @@ button {
 }
 
 /* --- FOOTER & SOCIALS --- */
-.socialmedia a {
-    text-decoration: none;
-}
+
 
 .socialmedia img {
     width: 30px;
