@@ -67,13 +67,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: var(--secondary-color);
-    text-align: center;
-}
-
-
-
 .top-contact h1 {
     color: var(--accent-color);
     font-weight: bold;
@@ -335,6 +328,13 @@ label[for="message"] {
 
 }
 
+.bottom-contact h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+    border-bottom: solid var(--secondary-color);
+}
+
 .bottom-contact .figure_image {
     justify-content: space-around;
 }
@@ -459,7 +459,7 @@ label[for="message"] {
 }
 
 h2 {
-    color: var(--accent-color);
+    color: var(--accent-color-light);
     text-align: center;
     margin-bottom: 20px;
 }
