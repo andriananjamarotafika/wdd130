@@ -200,17 +200,23 @@ figure {
 
 }
 
-.figure_home figure {
-    border: var(--secondary-color) solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
+.figure_home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    width: 100%;
+
 }
 
+.figure_home figure {
+    border: var(--secondary-color) solid;
+    height: 100%;
+}
+
+
+
 .figure_home img {
-    width: 20rem;
+    width: auto;
 }
 
 figure img {
