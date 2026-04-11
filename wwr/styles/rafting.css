@@ -41,6 +41,12 @@ img {
     width: 100%;
 }
 
+.call_action img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+}
+
 h1 {
     color: var(--accent-color-light);
 }
@@ -352,11 +358,13 @@ button[type="submit"] {
 .call_action {
     display: block;
     position: relative;
+    margin: 2rem 0;
     width: 100%;
     height: auto;
     background-color: var(--accent-color);
     padding: 2rem;
     align-content: center;
+    overflow: hidden;
 }
 
 .news_letter {
@@ -366,7 +374,7 @@ button[type="submit"] {
     height: auto;
     background-color: var(--secondary-color);
     padding: 2rem;
-    top: 10%;
+    top: 15%;
     right: 10%;
     color: var(--accent-color-light);
     overflow: hidden;
