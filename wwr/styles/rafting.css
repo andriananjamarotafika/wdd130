@@ -332,8 +332,7 @@ label[for="message"] {
 
 .bottom-contact figcaption {
     display: block;
-    background-color: var(--accent-color-light);
-    color: var(--primary-color);
+    color: var(--accent-color-light);
     text-align: center;
     font-size: 1rem;
     font-style: normal;
