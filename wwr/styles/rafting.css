@@ -72,9 +72,10 @@ h2 {
     text-align: center;
 }
 
-.top-contact p {
-    color: var(--primary-color);
-    font-size: larger;
+
+
+.top-contact h1 {
+    color: var(--accent-color);
     font-weight: bold;
 }
 
