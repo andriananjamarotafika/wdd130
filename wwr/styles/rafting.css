@@ -33,8 +33,14 @@ span {
 /* --- TYPOGRAPHY --- */
 h1,
 h2 {
+    margin: 20px 0;
+    padding: 1rem;
     text-align: center;
-    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: var(--secondary-color);
 }
 
 img {
@@ -152,7 +158,7 @@ header img {
 .history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 30% 70%;
     padding: 2rem;
     border: var(--primary-color) solid;
 }
@@ -324,8 +330,6 @@ button[type="submit"] {
 }
 
 .bottom-contact h2 {
-    color: var(--secondary-color);
-    text-align: center;
     padding: 1rem;
     border-bottom: solid var(--secondary-color);
 }
@@ -381,7 +385,6 @@ button[type="submit"] {
 }
 
 .news_letter h2 {
-    text-align: center;
     padding: 1rem;
     color: var(--accent-color-light);
     border-bottom: solid var(--accent-color-light);
@@ -417,7 +420,6 @@ button[type="submit"] {
 }
 
 .booking h2 {
-    text-align: center;
     padding: 1rem;
     color: var(--accent-color-light);
     border-bottom: solid var(--accent-color-light);
@@ -432,6 +434,10 @@ button[type="submit"] {
     padding: 20px;
     background-color: var(--secondary-color);
     border: var(--primary-color);
+}
+
+.trip-container h2 {
+    color: var(--accent-color-light);
 }
 
 .trip-table {
